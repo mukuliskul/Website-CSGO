@@ -1,0 +1,29 @@
+body {
+  background-image: url("./images/backdrop-fan1.jpg"); /*https://www.pinterest.ca/pin/692147036470059531/*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* body {
+  background-image: url("./images/backdrop-fan1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+} */
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+}
+  
+  /* Hover effect */
+.button-link:hover {
+  background-color: #0056b3;
+}

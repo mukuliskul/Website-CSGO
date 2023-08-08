@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 function insertReviews(){
-    let mainBody = document.body;
+    let mainBody = document.getElementById("main");
     let reviewContainer = document.createElement("div");
     reviewContainer.className = "cardContainer";
     
@@ -22,14 +22,34 @@ function insertReviews(){
         let rating = document.createElement("div");
         let date = document.createElement("div");
         
-        div.classNam = "card"
+        div.className = "card";
+        name.className = "review-name";
+        date.className = "review-time";
 
         img.src = reviewData[i].pp;
         img.style.width = '300px';
         img.style.height = '300px';
         name.innerHTML = reviewData[i].name;
         content.innerHTML = reviewData[i].content;
-        rating.innerHTML = reviewData[i].rating;
+
+        if(reviewData[i].ct){
+            name.style.color = "#0000FF";
+        }else{
+            name.style.color = "#FFA500";
+        }
+
+        if(reviewData[i].rating == 5){
+            rating.innerHTML = "★★★★★";
+        }else if(reviewData[i].rating == 4){
+            rating.innerHTML = "★★★★☆";
+        }else if(reviewData[i].rating == 3){
+            rating.innerHTML = "★★★☆☆";
+        }else if(reviewData[i].rating == 2){
+            rating.innerHTML = "★★☆☆☆";
+        }else{
+            rating.innerHTML = "★☆☆☆☆";
+        }
+
         date.innerHTML = reviewData[i].time;
 
         div.appendChild(img);

@@ -1,3 +1,59 @@
-.info{
-    margin-left: 10px;
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #982c61;
+  text-transform: uppercase;
+  border-bottom: 2px solid #982c61;
+  padding-bottom: 10px;
+  padding-top: 3%;
+}
+
+h3 {
+  color: #1d7484;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.history-csgo {
+  text-align: center;
+}
+
+.mode-info {
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin: 30px 0px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tips {
+  background-color: #a6d5d5;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tip-list {
+  margin-left: 30px;
+  font-size: 16px;
 }

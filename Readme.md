@@ -64,6 +64,6 @@ Contains subdirectories for each major page of the website.
 
 ## Acknowledgments
 
-This project was developed by [Your Name], inspired by a passion for Counter-Strike: Global Offensive. Special thanks to the WEB222 instructors for their guidance and support throughout the development process.
+This project was developed by Mukul Sharma, inspired by a passion for Counter-Strike: Global Offensive. Special thanks to the WEB222 instructor for their guidance and support throughout the development process.
 
 Feel free to explore the different pages, read reviews, learn about game modes, and dive into the world of CS:GO!

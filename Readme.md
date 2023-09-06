@@ -2,7 +2,7 @@
 
 Welcome to the README.md for the Counter-Strike: Global Offensive (CS:GO) website. This document provides an overview of the project, its structure, lessons learned, and more.
 
-For a live experience of the website, please visit [CSGO Website](https://willowy-croissant-423089.netlify.app).
+For a live experience of the website, please visit [CSGO Website](https://hellocsgo.netlify.app/).
 
 ## Lessons Learned
 
